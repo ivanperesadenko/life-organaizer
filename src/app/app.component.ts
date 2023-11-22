@@ -10,7 +10,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss',
 })
 export class AppComponent implements OnInit {
+  public test: string = '';
+
   public ngOnInit(): void {
-    console.log(this);
+    this.test = 'Hello';
   }
 }
